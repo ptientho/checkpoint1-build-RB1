@@ -20,7 +20,9 @@ roslaunch my_rb1_description display.launch
 
 roslaunch my_rb1_gazebo my_rb1_robot_warehouse.launch
 
-[![Watch the video](https://example.com/video-thumbnail.jpg)]([https://example.com/video.mp4]([https://drive.google.com/file/d/1gh7rEznzsDAF8vFMI7fPV8oyvNZj7GOh/view?usp=drive_link)](https://drive.google.com/file/d/1gh7rEznzsDAF8vFMI7fPV8oyvNZj7GOh/view?usp=sharing))
+<p>The video shows the result after running the command.</p>
+
+[![gazebo_world](https://res.cloudinary.com/marcomontalbano/image/upload/v1692975409/video_to_markdown/images/google-drive--1gh7rEznzsDAF8vFMI7fPV8oyvNZj7GOh-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1gh7rEznzsDAF8vFMI7fPV8oyvNZj7GOh/view?usp=drive_link "gazebo_world")
 
 3.Control rotation via ROS service:
 	server: roslaunch my_rb1_ros rotate_service.launch
