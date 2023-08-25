@@ -1,7 +1,13 @@
 # checkpoint1-build-RB1
 
-# How to run simulation
-1.Robot model in RVIZ: 
+## Introductionn
+<ol>
+<li>Created RB-1 robot model using URDF format and visualized in RVIZ</li>
+<li>Simulated RB-1 robot in Gazebo and tested sending velocity commands</li>
+<li>Created ROS service for controlling the robot rotation</li> 
+</ol>
+
+## Run code
 	roslaunch my_rb1_description display.launch
 
 2.Robot launch in Gazebo:
