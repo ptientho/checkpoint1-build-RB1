@@ -26,6 +26,7 @@
 
 ## Control the robot via ROS service interface
 <p>Run the following code to launch a service server to control the robot's rotation. Open a new terminal to call the service by providing a degree of rotation.</p>
+
 	roslaunch my_rb1_ros rotate_service.launch
  
  	rosservice call /rotate_robot "degrees: -90"
