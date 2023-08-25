@@ -8,7 +8,7 @@
 </ol>
 
 ## Visualize the robot in Rviz
-To display the robot model in Rviz, run the following command.
+<p>To display the robot model in Rviz, run the following command.</p>
 
 	roslaunch my_rb1_description display.launch
 
@@ -25,10 +25,9 @@ To display the robot model in Rviz, run the following command.
 
 ## Control the robot via ROS service interface
 <p>Run the following code to launch a service server to control the robot's rotation. Open a new terminal to call the service by providing a degree of rotation.</p>
-	roslaunch my_rb1_ros rotate_service.launch
-
+	<strong>server:</strong> roslaunch my_rb1_ros rotate_service.launch
+ 	<strong>client:</strong> rosservice call /rotate_robot "degrees: -90"
+	
 <p>The video shows the result after running the command.</p>
-3.Control rotation via ROS service:
-	server: roslaunch my_rb1_ros rotate_service.launch
-	client: rosservice call /rotate_robot "degrees: -90"
+[![rotate_robot](https://res.cloudinary.com/marcomontalbano/image/upload/v1692976341/video_to_markdown/images/google-drive--173XGj64Bi_j4qnsDnoNDflXJkbr3R6m3-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/173XGj64Bi_j4qnsDnoNDflXJkbr3R6m3/view?usp=sharing "rotate_robot")
 
