@@ -10,9 +10,10 @@
 ## Visualize the robot in Rviz
 <p>To display the robot model in Rviz, run the following command.</p>
 
+
 roslaunch my_rb1_description display.launch
 
-<strong>result:</strong><br>
+<strong>Result:</strong><br>
 <img width="767" alt="Screen Shot 2023-08-25 at 12 04 14 AM" src="https://github.com/ptientho/checkpoint1-build-RB1/assets/78469954/eb29ee0d-2526-43a5-a9a2-90ea95f52e3a">
 
 
