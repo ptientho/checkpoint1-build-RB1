@@ -21,6 +21,7 @@
 	roslaunch my_rb1_gazebo my_rb1_robot_warehouse.launch
 
 <p>The video shows the result after running the command.</p>
+
 [![gazebo_world](https://res.cloudinary.com/marcomontalbano/image/upload/v1692975409/video_to_markdown/images/google-drive--1gh7rEznzsDAF8vFMI7fPV8oyvNZj7GOh-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1gh7rEznzsDAF8vFMI7fPV8oyvNZj7GOh/view?usp=drive_link "gazebo_world")
 
 ## Control the robot via ROS service interface
@@ -29,5 +30,6 @@
  	<strong>client:</strong> rosservice call /rotate_robot "degrees: -90"
 	
 <p>The video shows the result after running the command.</p>
+
 [![rotate_robot](https://res.cloudinary.com/marcomontalbano/image/upload/v1692976341/video_to_markdown/images/google-drive--173XGj64Bi_j4qnsDnoNDflXJkbr3R6m3-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/173XGj64Bi_j4qnsDnoNDflXJkbr3R6m3/view?usp=sharing "rotate_robot")
 
